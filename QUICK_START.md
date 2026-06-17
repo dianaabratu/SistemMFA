@@ -113,7 +113,6 @@ cd attack_scripts
 python 01_brute_force_login.py       # Brute force login
 python 02_brute_force_totp.py        # Brute force TOTP
 python 03_totp_replay.py             # Replay attack (necesită cod din Google Authenticator)
-python 04_jwt_tampering.py           # Modificare JWT
 python 06_fido2_origin_binding.py    # Origin binding FIDO2
 python 07_latency_benchmark.py       # Benchmark latență
 ```
