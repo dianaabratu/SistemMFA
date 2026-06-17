@@ -1,6 +1,6 @@
 # Sistem de Autentificare Multifactor (MFA)
 
-**Lucrare de dissertatie -- Diana-Roxana Bratu**
+**Lucrare de disertatie -- Diana-Roxana Bratu**
 
 Tema: Metode de autentificare multifactor pentru securitatea retelelor
 
@@ -111,6 +111,6 @@ Vezi QUICK_START.md pentru instructiuni complete.
 
 ## Autor
 
-**Diana-Roxana Bratu** -- Lucrare de dissertatie, 2026
+**Diana-Roxana Bratu** -- Lucrare de disertatie, 2026
 
 Facultatea de Electronica, Telecomunicatii si Tehnologia Informatiei
