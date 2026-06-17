@@ -1,0 +1,43 @@
+{
+  "name": "mfa-auth-backend",
+  "version": "1.0.0",
+  "description": "Backend pentru sistem de autentificare multifactor",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "migrate": "node src/config/migrate.js"
+  },
+  "keywords": [
+    "mfa",
+    "authentication",
+    "security",
+    "nodejs"
+  ],
+  "author": "Diana-Roxana Bratu",
+  "license": "MIT",
+  "dependencies": {
+    "@simplewebauthn/server": "^6.2.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "openid-client": "^4.9.1",
+    "pg": "^8.11.3",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0",
+    "twilio": "^4.20.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
